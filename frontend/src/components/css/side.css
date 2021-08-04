@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 576px) {
+h7 {
+  font-size: 16px;
+  font-family: 'Lora', serif;
+}
+}
+@media (min-width: 576px) {
+h7 {
+  font-size: 18px;
+  font-family: 'Lora', serif;
+}
+}
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: 'Lora', serif;
+}
+.nav-pills .nav-link.active {
+    background-color: #f1f1f1 !important;
+    color: #000000
+}
+ .nav-link {
+  color: #515151;
+  
+ }
+
+.nav-link:hover, .nav-link:hover:focus{
+  color:#000000;
+  
+  
+}
+.nav-link.active{
+  color: #000;;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+
+
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+   }
+    
+    
+  
+  @media (min-width: 768px) { 
+    .navbar.navbar.fixed-right{
+        display:none;
+    }
+
+    
+}
+@media (max-width: 1200px) { 
+  .assclass{
+      font-size: 0;
+      width: 0rem;
+      font-display: none;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .subclass{
+   
+    width: 2rem;
+
+  }
+}
+@media (min-width: 1200px) { 
+  .assclass{
+    
+    width: 5rem;
+
+  }
+}
+
+
+.white {
+  background-color: #ffffff;
+  height: 100%;
+  min-height: 100vh;
+
+  width: 35rem;
+  
+  scroll-behavior: ;
+  
+
+}
+@media (max-width: 767px) {
+.white {
+  width: 100%;
+  overflow-x: hidden;
+
+  
+  
+
+ }}
+
+ .arc {
+  background-color: #ffffff;
+  height: 100%;
+  min-height: 100vh;
+   
+
+}
+@media (max-width: 1022px) {
+.arc {
+  max-width: 33rem; 
+
+
+}
+.no {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .arc {
+    max-width: 61rem; 
+  
+  }
+  }
+  
+
+
+
+
+.navleft {
+  width:12rem
+}
+
+
+
+@media (max-width: 1200px) {
+  .navleft {
+    width: 5rem;
+    margin-left: 2rem;
+  }
+}
+.tall{
+  min-height: 100vh;
+  height: 100%;
+  background-color:  #ffffff;
+}
+@media (max-width: 768px) {
+  .navbar-collapse {
+      position: fixed;
+      top: 55px; /* adjust to height of navbar */
+      left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 50%;
+      height: 100%;
+      background-color: #ffffff;
+ 
+  }
+  .tall {
+    margin-top: 55px;
+  }
+
+  .navbar-collapse.collapsing {
+      left: -75%;
+      transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+      left: 0;
+      transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+      transition: left 500ms ease-in-out;
+  }
+  
+}
+.navbar.navbar.fixed-right {
+  background-color: #ffffff;
+  
+}
+
+
+.an {
+  border: none;
+  width: 11rem;
+  border-bottom: 1px solid black;
+  font-size:20px;
+}
