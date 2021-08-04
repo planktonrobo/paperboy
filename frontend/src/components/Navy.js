@@ -6,7 +6,7 @@ import {
 } from "react-bootstrap";
 import {NavLink, useLocation} from 'react-router-dom'
 import {logout} from '../actions/auth'
-import { BsArchiveFill, BsHouseFill, BsPencilSquare, BsPersonFill} from "react-icons/bs";
+import { BsArchiveFill, BsHouseFill, BsPersonFill} from "react-icons/bs";
 import {GiArchiveResearch} from 'react-icons/gi';
 import { useDispatch, useSelector } from "react-redux";
 import {useState} from 'react';

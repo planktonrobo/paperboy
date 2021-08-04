@@ -73,14 +73,19 @@ h7 {
     width: 2rem;
 
   }
-}
-@media (min-width: 1200px) { 
   .assclass{
     
     width: 5rem;
 
   }
 }
+
+@media (max-width: 768px) {
+  .login{
+    width: 1rem;
+  }
+}
+
 
 
 .white {
@@ -90,11 +95,10 @@ h7 {
 
   width: 35rem;
   
-  scroll-behavior: ;
   
 
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 .white {
   width: 100%;
   overflow-x: hidden;
@@ -113,7 +117,7 @@ h7 {
 }
 @media (max-width: 1022px) {
 .arc {
-  max-width: 33rem; 
+  max-width: 35rem; 
 
 
 }
@@ -193,3 +197,4 @@ h7 {
   border-bottom: 1px solid black;
   font-size:20px;
 }
+
